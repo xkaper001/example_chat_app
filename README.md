@@ -1,8 +1,11 @@
-# Example Chat App
+# Example Chat App for Upwork Job
 
 A feature-rich chat application demonstrating Clean Architecture principles and BLoC pattern in Flutter.
 
-![Chat App Banner](assets/images/banner.png)
+
+## 📸 Preview
+
+https://github.com/user-attachments/assets/de03562f-2d10-47bb-bdfa-4bd5aa838299
 
 ## 📱 Features
 
@@ -44,9 +47,6 @@ lib/
 - **google_fonts**: Typography (chose a similar typeface to the original design)
 - **equatable**: Value equality
 - **intl**: Internationalization and date formatting
-
-## 📸 Preview
-
 
 
 
