@@ -154,6 +154,7 @@ class _GroupChatScreenState extends State<GroupChatScreen> {
                                 DateFormat(
                                   'd MMMM y',
                                 ).format(message.timestamp),
+                                style: TextStyle(fontWeight: FontWeight.w600),
                               ),
                             );
                           }

@@ -18,12 +18,12 @@ class MessageBubble extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 6.0, horizontal: 16.0),
+      padding: const EdgeInsets.symmetric(vertical: 12.0, horizontal: 16.0),
       child: Align(
         alignment: isCurrentUser ? Alignment.centerRight : Alignment.centerLeft,
         child: Container(
           constraints: BoxConstraints(
-            maxWidth: MediaQuery.of(context).size.width * 0.72,
+            maxWidth: MediaQuery.of(context).size.width * 0.73,
           ),
           decoration: BoxDecoration(
             border: Border.all(color: AppTheme.OutLineColor, width: 1),
@@ -34,20 +34,20 @@ class MessageBubble extends StatelessWidget {
             borderRadius: BorderRadius.only(
               bottomLeft:
                   isCurrentUser
-                      ? const Radius.circular(40)
+                      ? const Radius.circular(44)
                       : const Radius.circular(0),
               bottomRight:
                   isCurrentUser
                       ? const Radius.circular(0)
-                      : const Radius.circular(40),
+                      : const Radius.circular(44),
               topLeft:
                   isCurrentUser
-                      ? const Radius.circular(40)
+                      ? const Radius.circular(44)
                       : const Radius.circular(0),
               topRight:
                   isCurrentUser
                       ? const Radius.circular(0)
-                      : const Radius.circular(40),
+                      : const Radius.circular(44),
             ),
             boxShadow:
                 !isCurrentUser
