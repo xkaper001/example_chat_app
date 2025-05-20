@@ -200,6 +200,7 @@ class _GroupChatScreenState extends State<GroupChatScreen> {
   Widget _buildMessageInput() {
     return Container(
       margin: const EdgeInsets.only(left: 12.0, right: 12.0, bottom: 2),
+      clipBehavior: Clip.antiAlias,
       decoration: BoxDecoration(
         color: AppTheme.backgroundColor,
         boxShadow: [
